@@ -2,15 +2,24 @@
     min-height: 80vh;
     min-width : 80vw;
     border: 2px solid black;
+    padding: 10px;
 }
 
 .left {
-    color: red;
-    width: 80px;
+    width: 35vw;
     float: left;
 }
 
+.p-left {
+    color: red;
+}
+
 .right{
-    width: 80px;
+    width: 40vw;
     float: right;
+}
+
+.bottom{
+    width: 100vw;
+    float: bottom;
 }
