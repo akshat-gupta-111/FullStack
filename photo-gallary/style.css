@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    height: 100vh;
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap : 3%;
+    grid-template-areas: 
+    "box1 box1 box1 box1"
+    "box2 box3 box4 box5"
+    "box2 box6 box7 box8"
+    "box2 in in in"
+    "box2 in in in"
+    "box11 box11 box11 box11"
+    ;
+}
+
+.in{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap : 3%;
+    grid-template-areas: 
+        "box9 box10"
+    ;
+}
+.box{
+    /* margin: 2px; */
+    min-height: 100px;
+    /* width: 200px; */
+    background-color: cornflowerblue;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

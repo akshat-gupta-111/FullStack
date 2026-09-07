@@ -1,0 +1,17 @@
+.container{
+    display: grid;
+    height: 90vh;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap:15px
+}
+
+.box{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+
+/*
+H.W. - CSS variables and layers
+*/
