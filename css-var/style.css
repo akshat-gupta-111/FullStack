@@ -1,0 +1,23 @@
+:root{
+    --primary-color : black;
+    --secondry-color : yellow;
+    --text-size : 20px;
+    --multiply : 5;
+}
+
+
+/* p{
+    background-color: var(--secondry-color);
+    color: var(--primary-color);
+} */
+
+p{
+    background-color: var(--primary-color);
+    color: var(--secondry-color);
+    font-size: calc(var(--multiply) * var(--text-size));
+}
+
+div{
+    --primary-color : red;
+    --secondar-color : black;
+}

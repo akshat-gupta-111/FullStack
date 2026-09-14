@@ -1,5 +1,10 @@
 body{
     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+    width: 100vw;
 }
 .container{
     outline: 1px solid red;
@@ -52,11 +57,14 @@ body{
 
 #box{
     background-color: red;
-    height: 25px;
+    height: 40px;
     width: 250px;
     grid-column : 1/4;
     grid-row : 3/4;
     z-index: 2;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
 }
 
 .eye{
@@ -64,4 +72,11 @@ body{
     width: 75px;
     background-color: black;
     border-radius: 30px;
+}
+
+.internal{
+    height: 15px;
+    width: 85%;
+    background-color: black;
+    border-radius: 0px 0px 80px 80px;
 }
