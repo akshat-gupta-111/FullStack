@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+
+
+        .logo-nav{
+            width : 30%;
+            padding-left : 40px;
+        }
+
+        .logos-nav{
+            display : flex;
+            width : 25%;
+            padding-left: 100px;
+            justify-content:center;
+        }
+        .ul-nav{
+            list-style-type : none;
+            display : flex;
+            justify-content : space-between;
+            min-width : 45%;
+        }
+        body{
+            height : 100vh;
+            width : 100%;
+            margin : 0px;
+        }
+        .nav{
+            height : 10vh;
+            width : 100%;
+            background-color : black;
+            color : white;
+            display : flex;
+            align-items : center;
+        }
+
+        .main{
+            height : 97vh;
+            width : 100%;
+            background-color : grey;
+        }
+        .menu{
+            position : relative;
+            height : 100%;
+            background-color : black;
+            border : 2px solid grey;
+            color : white;
+        }
+        .logo-menu{
+            position : absolute;
+            right : 20px;
+            top : 20px;
+        }
+
+        .ul-menu{
+            top:50px;
+            position : absolute;
+            width :100%;
+            list-style-type:none;
+            /* border: 2px solid white; */
+            height : 60%;
+            display :flex;
+            flex-direction : column;
+            justify-content : space-between;
+            align-items:left;
+        }
+
+        .logos-menu{
+            position : absolute;
+            bottom : 70px;
+            left : 40px;
+        }
+
+
+        @media (min-width:600px){
+            .menu{
+                display : none;
+            }
+        }
+        @media (max-width:600px){
+            .nav{
+                display : none;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="logo-nav">X</div>
+        <ul class="ul-nav">
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Projects</li>
+                <li>Studio</li>
+                <li>Contact</li>
+        </ul>
+        <div class="logos-nav">X - O - X - O</div>
+    </div>
+    <div class="main">
+        <div class="menu">
+            <div class="logo-menu">X</div>
+            <ul class="ul-menu">
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Projects</li>
+                <li>Studio</li>
+                <li>Contact</li>
+            </ul>
+            <div class="logos-menu">X - O - X - O</div>
+        </div>
+    </div>
+</body>
+</html>
